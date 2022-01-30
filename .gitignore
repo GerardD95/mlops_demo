@@ -76,7 +76,7 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+# /data/ # UPDATE: no need anymore, because DVC already added another gitignore file in the datafolder itself
 
 # Mac OS-specific storage files
 .DS_Store
